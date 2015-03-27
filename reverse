@@ -1,0 +1,427 @@
+
+推酷
+
+    文章
+    站点
+    主题
+    公开课
+    活动
+    客户端 荐
+    周刊
+    更多
+
+    登录
+
+Python：渗透测试开源项目【源码值得精读】 - 曾是土木人
+时间 2014-07-29 00:47:00 Python_博客园 原文  http://www.cnblogs.com/hongfei/p/3874419.html
+
+sql注入工具： sqlmap
+
+DNS安全监测： DNSRecon
+
+暴力破解测试工具： patator
+
+XSS漏洞利用工具： XSSer
+
+Web服务器压力测试工具： HULK
+
+SSL安全扫描器： SSLyze
+网络
+
+Scapy : send, sniff and dissect and forge network packets. Usable interactively or as a library
+
+pypcap ,  Pcapy  and  pylibpcap : several different Python bindings for libpcap
+
+libdnet : low-level networking routines, including interface lookup and Ethernet frame transmission
+
+dpkt : fast, simple packet creation/parsing, with definitions for the basic TCP/IP protocols
+
+Impacket : craft and decode network packets. Includes support for higher-level protocols such as NMB and SMB
+
+pynids : libnids wrapper offering sniffing, IP defragmentation, TCP stream reassembly and port scan detection
+
+Dirtbags py-pcap : read pcap files without libpcap
+
+flowgrep : grep through packet payloads using regular expressions
+
+Knock Subdomain Scan , enumerate subdomains on a target domain through a wordlist
+
+Mallory , extensible TCP/UDP man-in-the-middle proxy, supports modifying non-standard protocols on the fly
+
+Pytbull : flexible IDS/IPS testing framework (shipped with more than 300 tests)
+调试和逆向工程
+
+Paimei : reverse engineering framework, includes  PyDBG , PIDA, pGRAPH
+
+Immunity Debugger : scriptable GUI and command line debugger
+
+mona.py : PyCommand for Immunity Debugger that replaces and improves on pvefindaddr
+
+IDAPython : IDA Pro plugin that integrates the Python programming language, allowing scripts to run in IDA Pro
+
+PyEMU : fully scriptable IA-32 emulator, useful for malware analysis
+
+pefile : read and work with Portable Executable (aka PE) files
+
+pydasm : Python interface to the  libdasm  x86 disassembling library
+
+PyDbgEng : Python wrapper for the Microsoft Windows Debugging Engine
+
+uhooker : intercept calls to API calls inside DLLs, and also arbitrary addresses within the executable file in memory
+
+diStorm : disassembler library for AMD64, licensed under the BSD license
+
+python-ptrace : debugger using ptrace (Linux, BSD and Darwin system call to trace processes) written in Python
+
+vdb / vtrace : vtrace is a cross-platform process debugging API implemented in python, and vdb is a debugger which uses it
+
+Androguard : reverse engineering and analysis of Android applications
+Fuzzing
+
+Sulley : fuzzer development and fuzz testing framework consisting of multiple extensible components
+
+Peach Fuzzing Platform : extensible fuzzing framework for generation and mutation based fuzzing (v2 was written in Python)
+
+antiparser : fuzz testing and fault injection API
+
+TAOF , (The Art of Fuzzing) including ProxyFuzz, a man-in-the-middle non-deterministic network fuzzer
+
+untidy : general purpose XML fuzzer
+
+Powerfuzzer : highly automated and fully customizable web fuzzer (HTTP protocol based application fuzzer)
+
+SMUDGE
+
+Mistress : probe file formats on the fly and protocols with malformed data, based on pre-defined patterns
+
+Fuzzbox : multi-codec media fuzzer
+
+Forensic Fuzzing Tools : generate fuzzed files, fuzzed file systems, and file systems containing fuzzed files in order to test the robustness of forensics tools and examination systems
+
+Windows IPC Fuzzing Tools : tools used to fuzz applications that use Windows Interprocess Communication mechanisms
+
+WSBang : perform automated security testing of SOAP based web services
+
+Construct : library for parsing and building of data structures (binary or textual). Define your data structures in a declarative manner
+
+fuzzer.py (feliam) : simple fuzzer by Felipe Andres Manzano
+
+Fusil : Python library used to write fuzzing programs
+Web
+
+Requests : elegant and simple HTTP library, built for human beings
+
+HTTPie : human-friendly cURL-like command line HTTP client
+
+ProxMon : processes proxy logs and reports discovered issues
+
+WSMap : find web service endpoints and discovery files
+
+Twill : browse the Web from a command-line interface. Supports automated Web testing
+
+Ghost.py : webkit web client written in Python
+
+Windmill : web testing tool designed to let you painlessly automate and debug your web application
+
+FunkLoad : functional and load web tester
+
+spynner : Programmatic web browsing module for Python with Javascript/AJAX support
+
+python-spidermonkey : bridge to the Mozilla SpiderMonkey JavaScript engine; allows for the evaluation and calling of Javascript scripts and functions
+
+mitmproxy : SSL-capable, intercepting HTTP proxy. Console interface allows traffic flows to be inspected and edited on the fly
+
+pathod / pathoc : pathological daemon/client for tormenting HTTP clients and servers
+取证
+
+Volatility : extract digital artifacts from volatile memory (RAM) samples
+
+LibForensics : library for developing digital forensics applications
+
+TrIDLib , identify file types from their binary signatures. Now includes Python binding
+
+aft : Android forensic toolkit
+恶意程序分析
+
+pyew : command line hexadecimal editor and disassembler, mainly to analyze malware
+
+Exefilter : filter file formats in e-mails, web pages or files. Detects many common file formats and can remove active content
+
+pyClamAV : add virus detection capabilities to your Python software
+
+jsunpack-n , generic JavaScript unpacker: emulates browser functionality to detect exploits that target browser and browser plug-in vulnerabilities
+
+yara-python : identify and classify malware samples
+
+phoneyc : pure Python honeyclient implementation
+PDF
+
+Didier Stevens' PDF tools : analyse, identify and create PDF files (includes  PDFiD ,  pdf-parser and  make-pdf  and mPDF)
+
+Opaf : Open PDF Analysis Framework. Converts PDF to an XML tree that can be analyzed and modified.
+
+Origapy : Python wrapper for the Origami Ruby module which sanitizes PDF files
+
+pyPDF : pure Python PDF toolkit: extract info, spilt, merge, crop, encrypt, decrypt…
+
+PDFMiner : extract text from PDF files
+
+python-poppler-qt4 : Python binding for the Poppler PDF library, including Qt4 support
+Misc
+
+InlineEgg : toolbox of classes for writing small assembly programs in Python
+
+Exomind : framework for building decorated graphs and developing open-source intelligence modules and ideas, centered on social network services, search engines and instant messaging
+
+RevHosts : enumerate virtual hosts for a given IP address
+
+simplejson : JSON encoder/decoder, e.g. to use  Google's AJAX API
+
+PyMangle : command line tool and a python library used to create word lists for use with other penetration testing tools
+
+Hachoir : view and edit a binary stream field by field
+
+py-mangle : command line tool and a python library used to create word lists for use with other penetration testing tools
+其他有用的Py库和工具
+
+IPython : enhanced interactive Python shell with many features for object introspection, system shell access, and its own special command system
+
+Beautiful Soup : HTML parser optimized for screen-scraping
+
+matplotlib : make 2D plots of arrays
+
+Mayavi : 3D scientific data visualization and plotting
+
+RTGraph3D : create dynamic graphs in 3D
+
+Twisted : event-driven networking engine
+
+Suds : lightweight SOAP client for consuming Web Services
+
+M2Crypto : most complete OpenSSL wrapper
+
+NetworkX : graph library (edges, nodes)
+
+Pandas : library providing high-performance, easy-to-use data structures and data analysis tools
+
+pyparsing : general parsing module
+
+lxml : most feature-rich and easy-to-use library for working with XML and HTML in the Python language
+
+Whoosh : fast, featureful full-text indexing and searching library implemented in pure Python
+
+Pexpect : control and automate other programs, similar to Don Libes `Expect` system
+
+Sikuli , visual technology to search and automate GUIs using screenshots. Scriptable in Jython
+
+PyQt  and  PySide : Python bindings for the Qt application framework and GUI library
+其他
+
+Python 作为程序员的宠儿，越来越得到人们的关注，使用 Python 进行应用程序开发的越来也多。那么，在 2013 年有哪些流行的 Python 项目呢？下面，我们一起来看下。
+
+　　 一、测试和调试
+
+    python_koans ：Python Koans 算 “Ruby Koans” 的一部分，作为交互式教程，可以学习   TDD  技巧。
+    sure ：Sure 是最适合自动化测试的 Python 工具，包含流利的断言、深度选择器等等特性。
+    responses ：用 responses 能令测试更加轻松，这是一个可以伪装各种请求的库。
+    boom ：Boom!   Apache Bench  的替代品。作为一个命令行工具，Boom 能对你的应用进行快捷的   smoke test 。
+    cricket ： BeeWare  套件的一部分，cricket 是种图形化工具，协助你进行案例测试。
+    bugjar ： BeeWare  套件的一部分，bugjar 是针对 Python 的图形化交互式调试器。
+    pudb ：pudn 是针对 Python 的全屏命令行调试器。
+    voltron ：更好的 gdb 界面。
+
+　　 二、Web 框架
+
+    django-stronghold ：试过将 login_required 装饰器四处乱放? 在你的堡垒中令所有 Django 视图有默认 login_required 呗。
+    Falcon Framework ：Falcon 自称为髙性能云接口框架，号称能在相同硬件条件下提高服务端性能 30 倍! 听起来有点儿意思?
+    django-xadmin ：用 bootstrap 对 django-admin 进行了深度升级，提供了可插件安装的仪表盘。
+    clay ：基于   Flask  的封装，能令我们轻松的创建 RESTful 后端服务，完整文档可查看   clay 。
+    flask-restful ：基于 Flask 的简单框架，用以创建 REST 接口。
+    sandman ：Sandman 希望通过 REST 接口暴露你现有的 app，相关   博客 也值得一读。
+    Django Unchained ：名字很髙大上，也的确是 Python Django 初学者的靠谱指南。
+
+　　 三、并发
+
+    pulsar ：部署新 web 服务器走起! 有趣的事件驱动的并发框架 ! 兼容从 2.6+ 到 pypy 的所有 python 版本!
+    toro ：同步化的 Tornado 协程支持。
+    offset ：Offset   Go  的并发模式在 Python 中的实现，请参考相关演讲   幻灯 来理解!
+
+　　 四、任务调度
+
+    pyres ：从   resque  获得灵感的纯 Python 任务调度模块，是 celery 的替代。
+    dagobah ：Dagobah 是 Python 完成的简单关系依赖为基础的任务调度模块，还包含很 COOL 的关联任务工作流图形工具。
+    schedule ：使用生成器模式来为定期任务生成配置的进程调度模块。
+
+　　 五、实用工具
+
+    howdoi ：发觉你总在 Google 一些简单的最简单的编程任务? howdoi 能让你远离浏览器，就解决这类事儿!
+    delorean ：时间旅行?简单! Delorean 的目标就是令你的 Python 项目在处理时间/日期时轻而易举!查阅完备的   文档 。
+    powerline-shell ：对于那些想让常用工具漂亮起来人，一定要用 powerline-bash，能打造漂亮的 shell 提示符，增加力线(powerline)，兼容 Bash/Zsh。
+    fn.py ：在 Python 中谈及函数编程时失落的那节"电池"终于出现了! 如果对   Python 函数式编程 有兴趣的立即下手安装体验吧！
+    lice ：为你的开源工程方便的追加许可证，而不用自个儿去 Google，支持 BSD、MIT 和 GPL 以及变种协议。
+    usblock ：基于 USB 来锁定或是解锁你的笔记本!
+    Matchbox ：MatchBox 能在你自个儿的服务器上提供类似 Dropbox 风格的备份服务! 基于 Flask 并通过 http 协议进行文件传输。
+    cleanify ：用 cleanify 能异步美化你项目的所有 html/css/js 文件。
+    locksmith ：Locksmith 是 AES 加密的口令管理器，看起来不错，完全开源，源代码、截屏都有。
+    storm ：在 Storm 的命令行界面，管理你所有的 SSH 连接。
+    sqlparse ：：这个很给力! sqlparse 是个 SQL 有效性分析器，支持解析/分裂/格式化 SQL 语句。
+    autopep8 ：能自动化以   pep8 来格式化你的代码。
+    colout ：colout 用以在命令行中色彩化输出，这就从其   github page  查看范例来体验吧。
+    bumpversion ：版本号冲撞总是恼人的，而每个人总是忘记给发行版本打 tag，bumpversion 用一条简单的命令简化了这方面的操作。
+    pyenv ：需要更好的管理你 Python 的多版本环境 ? pyenv 让你能简洁的作到!(甚至超出你的预期!有插件能将 VirtualEnv 也无缝结合进来!)
+    pip-tools ：一整套能令你的 Python 项目保持清爽的工具。
+    cdiff ：Cdiff 是种非常 nice 的工具，可以用彩色输出统一 diff 格式信息，或用双栏形式来展示。
+
+　　 六、数据科学及可视化
+
+    data_hacks ：由   bitly  发布的一堆数据分析用命令行工具。这些工具接受命令行或是其它工具输入的数据，轻易的生成柱图以及直方图等等。
+    给黒客的概率编程和贝叶斯方法 ：这书是极好的，介绍如何用贝叶斯方法和概率编程进行数据分析，而且每章都提供了用以 iPython Notebooks 的示例。
+    simmetrica ：想对自个儿的应用基于时间的数据序列进行展示、汇总、分享嘛? 赶紧上 simmetrica 吧，同时还提供了可定制的仪表盘。
+    vincent ： Python 构建的专为运用 D3.js 进行可视化的 vega 转换工具。
+    bamboo ：一种简洁的实时数据分析应用，bamboo 提供了一个进行合并、汇总、数值计算的数据实时接口。
+    dataset ：难以置信的工具，dataset 让对数据库的读写简单的象对 JSON 文件的操作，没有其它的文件配置，顷刻间就让你在 BOSS 面前高大上起来。
+    folium ：喜欢地图?也爱 Python? Folium 让你在地图上自在操纵数据。
+    prettyplotlib ：用 prettyplotlib 来强化你的 matplotlib，让你默认的 matplotlib 输出图片更加漂亮.
+    lifelines ：有兴趣在 Python 中研究 生存分析 的话，不用观望了，用 lifelines! 包含对 Kaplan-Meier、Nelson-Aalen 和生存回归分析。
+
+　　 七、编辑器及其改善
+
+    sublime-snake ：想在无尽的 coding 中喘口气? 当然是这种经典游戏了……
+    spyderlib ：又一个用 Python 写的开源 IDE。
+    vimfox ：对于 Vim 党最贴心的 web 专发工具，VimFox 能让 vim 实时的看到 css/js/html 的修改效果，能神奇的让 vim 中的修订，立即在浏览器中看到。
+    pcode ：基于 Py3 的 IDE，通过简单的 UI 提供了重构、工程管理等。
+
+　　 八、持续交付
+
+    metrology ：这个库很酷，支持你对应用进行多种测量并轻松输出给类似   graphite  的外部系统。
+    python-lust ：支持在 Unix 系统中用 Python 实现一个守护进程。
+    scales ：Scales 对你的 Python 应用进行持续状态和统计，并发送数据到   graphite 。
+    glances ：跨平台，基于   curses  命令行的系统监视工具。
+    ramona ：企业级的应用监管。 Ramona 保证每个进程在值，一但需要立即重启，并有监控/日志输出，会发送邮件提醒。
+    salmon ：基于   Salt Stack  的多服务监视系统，即能作报警系统，也能当监控系统。
+    graph-explorer ：Graph-explorer 是对   Graphite  面板的增强，比原版的好很多，值得体验。
+    sovereign ：Sovereign 是一系列   ansible  的攻略手册，能为自个儿建造个私人云。
+    shipyard ：能在指定的机器上弹出你的弹窗实例，也支持你创建/删除等等对弹窗的远程控制。
+    docker-py ：疯狂的   docker  工程接口的 Python 包装。
+    dockerui ：基于   docker  接口通过 web 界面进行交互操作的工具。
+    django-docker ：如果想知道怎么将 Djnago 应用同 Docker 结合? 可以从这里学习。
+    diamond ：Python 实现的守护进程，自动从你的服务或是其它指定数据源中提取数值，并   graphite 、 以及其它支持的 状态面板/收集系统输出。
+
+　　 九、Git
+
+    git-workflow ：可视化你的 git 工作流程的工具，示例：   Demo 。
+    gitto ：简洁的库，协助你建立自个儿的 git 主机。
+    git-imerge ：git-imerge 能让 git 进行增量合并。 本质上是允许你在进行 imerge 有冲突时，有机会先合并掉，再继续。
+
+　　 十、邮件与聊天
+
+    mailbox ：Mailbox 是对 Python 的 IMAP 一个人性化的再造。 基于简单即是美的态度，作者对 IMAP 接口给出了一个简单又好理解的形式。
+    deadchat ：deadchat 旨在不安全的网络环境中提供安全的单一房间群聊服务以及客户端。
+    Mailpile ：Mailpile 是针对邮件的索引及搜索引擎 。
+
+　　 十一、音频和视频
+
+    pms ：穷人的   Spotify ，搜索和收集音乐流!
+    dejavu ：在琢磨 Shazam 的原理? 音频指纹识别算法的 Python 实现在此!（译注: Shazam ：是个神奇的音乐识别应用，对她啍个几秒调子，就能精确告诉你是什么歌曲、作者、歌词……）
+    HTPC-Manager ：为   HTPC  粉丝准备的工具，提供了完备的界面来管理所有家庭媒体服务器上的好物。
+    cherrymusic ：Python 实现的一个音乐流媒体服务器。 流化输出你的音乐到所有设备上。
+    moviepy ：脚本化的电影剪辑包，切/串/插入标题等基本操作，几行就搞定!
+
+　　 十二、其它
+
+    emit ：用 redis 为你的函式追加可订阅能力，很有趣。
+    zipline ：Zipline 是种很 Pythonic 的交易算法库。
+    raspberry.io ：Raspberry.io 是树莓派的社区实现。 刚刚发布，汇集了各种创意想法，有兴趣的话立即检出折腾吧。
+    NewsBlur ：Google Reader 已经关张儿了，Newsblur 已经发布了有段日子了，开源的 RSS 阅读器，这绝对是应该首先体验的。
+    macropy ：Macropy 是在 Python 中实现   macros  的库。 检出文档，参考所有功能，看怎么用上了。
+    mini ：对编译器以及语言设计有兴趣的，一定要看看这个仓库，以及配套的录像!
+    parsimonious ：Parsimonious 的目标是最快的 arbitrary-lookahead 解析器。 用 Python 实现，基本可用。
+    isso ：Disqus 的开源替代，从 demo 看很不错，而且提供了更好的隐私设置。
+    deaddrop ：Deaddrop 能为新闻机构或是其它人提供在线投递箱，详细信息参考其   github page 。
+    nude.py ：裸体检测的 Python 实现，是 node.js 的仿制。
+    kaptan ： Kaptan 是你应用的配置管理器！
+    luigi ：Luigi 帮你构建复杂的管道来完成批处理。
+    gramme ：Gramme 以简单而优雅的方式，通过 UDP 接口对易失数据完成消息包装序列化。
+    q ：为你的 Python 程序提供快速而随性的日志。 有一系列帮手来追踪你的函式参数，并能在控制台快速交互式加载。
+    fuqit ：来自伟大的   Zed Shaw  最新作品，fuqit 试图令你忘记 MVC 的经验，用全新的方式专注简洁一切。
+    simplicity ：基于靠谱的   pydanny  将你的新结构化文本转换为 JSON 格式。
+    lassie ：Lassie 允许你轻松的从网站检索出内容来。
+    paperwork ：Paperwork 是个 OCR 文档并完成可搜索转化的工具，用 GTK/Glade 实现了友好的界面。
+    cheat ：cheat 允许你创建并查阅命令行上的交互式备忘。设计目的是帮助 *nix 的系统管理员们在习惯的环境中，快速调阅不易记忆的常用命令。
+    cookiecutter ：良心模块! 提供一堆有用但是不常写，所以记不下来的代码模板，也支持自制代码模板。
+    pydown ：支持用 Python 构建亮丽的 HTML5 效果幻灯， Demo 。
+    Ice ：模拟器粉丝们现在能用 Ice 向   Steam  里塞 ROM 来玩了。
+    pants ：用以编写异步网络应用的轻量级框架。 Pants 是单线程，回调服务，也包含支持 Websockets 的 HTTP 服务、WSGI 支持和一个简单的 web 框架。
+    pipeless ：Pipeless 是一个构建简单   数据管道 的框架。
+    marshmallow ：marshmallow 是个 ORM 无关的库，能将复杂的数据类型转换为 Python 原生类型对象，以便容易的转换为 JSON 提供接口使用。
+    twosheds ：Python 实现的库，用来构造命令或是 shell 解释器。Twosheds 让你用 Python 来定制自个儿的 shell 环境。
+
+推荐文章
+
+    1. [期刊]云平台下输变电设备状态监测大数据存储优化与并行处理
+    2. [PDF]基于改进模拟退火算法的Hadoop云平台下新型调度器的研究和开发
+    3. Apache Storm 0.9.4 发布，分布式实时计算
+    4. 王旭：多租户环境下，Docker的安全隔离怎么破
+    5. Tachyon：一个高性能、高容错、基于内存的开源分布式存储系统
+    6. QConf 正式开源！
+
+相关推刊
+
+    刊主：Zuckonit 《nice》 16
+    刊主：小锋自留地 《默认推刊》 9
+
+我来评几句
+登录后评论
+
+已发表评论数(0)
+相关站点
+Python_博客园
+相关主题
+
+    Python Python
+    开源 开源
+
+热门文章
+
+    1. 王旭：多租户环境下，Docker的安全隔离怎么破
+    2. Tachyon：一个高性能、高容错、基于内存的开源分布式存储系统
+    3. 大数据处理一定需要Hadoop吗？
+    4. QConf 正式开源！
+    5. 在 InfoSphere BigInsights 中利用与内存相关的参数提升 Big SQL 性能
+    6. Apache Spark 1.3发布，新增Data Frames API，改进Spark SQL和MLlib
+
+分享本文
+
+网站相关
+    关于我们 
+    移动应用 
+    建议反馈 
+
+关注我们
+    推酷网 
+    tuicool2012 
+    QQ群:164644910 
+
+友情链接
+    人人都是产品经理 TMTForum 魔部网 PM256 品途网 移动信息化 行晓网 Code4App 智城外包网 LAMP人 安卓航班网 虎嗅 缘创派 IT耳朵 艾瑞网 创媒工场 硅谷网 美团云 经理人分享 市场部网 砍柴网 CocoaChina 北风网 云智慧 我赢职场 大数据时代 奇笛网 咕噜网 红联linux Win10之家 Cocos引擎中文官网 鸟哥笔记 爱游戏 投资潮 31会议网 更多链接>>   
+
+分享到
+
+    一键分享
+    QQ空间
+    新浪微博
+    百度云收藏
+    微信
+    人人网
+    腾讯微博
+    百度相册
+    开心网
+    腾讯朋友
+    百度贴吧
+    豆瓣网
+    搜狐微博
+    百度新首页
+    QQ好友
+    和讯微博
+
+更多...
